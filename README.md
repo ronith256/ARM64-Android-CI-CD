@@ -58,6 +58,12 @@ jobs:
         run: |
           ./gradlew build
 ```
+## Build Signed APKs
+- Check [.gitea/workflows/arm64-server.yml](.gitea/workflows/arm64-server.yml).
+- It is using apksigner to sign the apk and upload using upload-artifact action.
+
 ## Notes
-- If you want to build for a new platform, you'll have to compile Android Build tools for ARM64 from source.
-- This was created so that I can create APKs using act_runner on my always free Oracle ARM64 server. 
+- Current release is for Platform 33. If you want to build for a different version, you'll have to compile for that version from Android SDK source. 
+- This was created so that I can create APKs using act_runner on my always free Oracle ARM64 server.
+
+
