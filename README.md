@@ -2,6 +2,8 @@
 
 This repository provides a seamless continuous integration and continuous delivery (CI/CD) pipeline for your Android projects, to be ran on ARM64 servers. 
 
+![Screenshot](https://ibb.co/Cmj3YH0)
+
 ## Prerequisites
 - ARM64 based server.
 - act_runner or something that can execute Github actions.
