@@ -2,7 +2,7 @@
 
 This repository provides a seamless continuous integration and continuous delivery (CI/CD) pipeline for your Android projects, to be ran on ARM64 servers. 
 
-![Screenshot](https://ibb.co/Cmj3YH0)
+<img src="https://i.ibb.co/Nt0dJyY/hulhuhkh.png" width=25% height=25%/>
 
 ## Prerequisites
 - ARM64 based server.
