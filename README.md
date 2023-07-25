@@ -13,7 +13,7 @@ This repository provides a seamless continuous integration and continuous delive
 ### Workflow Setup
 - Copy the GitHub Actions script provided and paste a .yml file in your workflows directory.
 
-```
+```yaml
 name: Android CI
 
 on:
